@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
+import ButtonBlue from '../Button/ButtonBlue';
+import ButtonRed from '../Button/ButtonRed';
+import Bars3BottomRightIcon, { Bars3BottomLeftIcon } from "@heroicons/react/24/solid"
+const Nav = ({openNav}) => {
 
-const Nav = () => {
+
+
   return (
     <div>
       <div className='h-[12vh] bg-white shadow-md'>
@@ -27,9 +32,13 @@ const Nav = () => {
               <Link href="/">Blog</Link>
             </li>
           </ul>
+
           <div className='flex items-center space-x-2 md:space-x-5'>
-            {/* {Login In} */}
-            {/* {Sign Up} */}
+            <ButtonBlue text="Login"/>
+            <ButtonRed text="Sign Up"/>
+            <Bars3BottomLeftIcon onClick={openNav} className='w-[1.5rem] lg:hidden h-[1.5rem] text-slate-900 cursor-pointer'/>
+
+
           </div>
         </div>
 
