@@ -1,11 +1,11 @@
 import React from 'react';
 import SectionHeading from '../SectionHeading/SectionHeading';
 import FeatureCard from './FeatureCard';
-import Icon1 from '@/public/icon1.png'
-import Icon2 from '@/public/icon2.png'
-import Icon3 from '@/public/icon3.png'
-import Icon4 from '@/public/icon4.png'
-import Icon5 from '@/public/icon5.png'
+import Icon1 from '../../../public/icon1.png'
+import Icon2 from '../../../public/icon2.png'
+import Icon3 from '../../../public/icon3.png'
+import Icon4 from '../../../public/icon4.png'
+import Icon5 from '../../../public/icon5.png'
 
 const Features = () => {
   return (
