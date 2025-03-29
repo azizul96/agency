@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "./components/Navigation/ResponsiveNav";
+import Footer from "./components/Footer/Footer";
 
 const poppins = Poppins({
   weight: [ "400", "500", "600", "700", "800", "900"],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       >
         <ResponsiveNav/>
         {children}
+        <Footer />
       </body>
     </html>
   );

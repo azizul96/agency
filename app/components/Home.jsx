@@ -4,6 +4,7 @@ import Features from './Features/Features';
 import ClientSupport from './ClientSupport/ClientSupport'
 import Price from './Price/Price'
 import SupportTeam from './SupportTeam/SupportTeam'
+import Customer from './Customer/Customer'
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <ClientSupport />
       <Price />
       <SupportTeam />
+      <Customer />
     </div>
   );
 };
